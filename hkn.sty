@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        .'\   /`.
+%                     .'.-.`-'.-.`.
+%                ..._:   .-. .-.   :_...
+%              .'    '-.(o ) (o ).-'    `.
+%             :  _    _ _`~(_)~`_ _    _  :
+%            :  /:   ' .-=_   _=-. `   ;\  :
+%            :   :|-.._  '     `  _..-|:   :
+%             :   `:| |`:-:-.-:-:'| |:'   :
+%              `.   `.| | | | | | |.'   .'
+%                `.   `-:_| | |_:-'   .'
+%                  `-._   ````    _.-'
+%                      ``-------''
+%
+%             ,--.  ,--.,--. ,--.,--.  ,--. 
+%             |  '--'  ||  .'   /|  ,'.|  | 
+%             |  .--.  ||  .   ' |  |' '  | 
+%             |  |  |  ||  |\   \|  | `   | 
+%             `--'  `--'`--' '--'`--'  `--'           
+%
+%
+% Significant inspiration taken from Simon Kuang (simontheflutist@berkeley.edu) 
+% and CS 170's cs170.sty file compiled by Aditya Baradwaj (abaradwaj@berkeley.edu), 
+% which largely drew from CS 70's header.sty file compiled by 
+% Alvin Wan (http://alvinwan.com).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesPackage{hkn}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document Information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\documenttitle{EECS126 Notes}
+\def\human{Gina Wu}
+\def\semester{Spring 2022}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\chaptitlefont}{\normalfont\LARGE\bfseries}
+
+\title{\textbf{\documenttitle}}
+\author{\human}
+\date{\semester}
+
+\usepackage[protrusion, expansion, kerning, tracking, spacing]{microtype}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[final]{pdfpages}
+
+\microtypecontext{spacing=nonfrench}
+\nonfrenchspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{circuitikz}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{latexsym}
+\usepackage{listings}
+\usepackage{lmodern}
+\usepackage{mathtools}
+\usepackage{minted}
+\usepackage{multicol}
+\usepackage{paralist}
+\usepackage{pdfpages}
+\usepackage{physics}
+\usepackage{xspace}
+\usepackage{tabu}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Miscellaneous
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usemintedstyle{vs}
+\renewcommand\labelitemi{-}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math Commands (aka shortcuts for fancy letters)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\C{\mathbb{C}}
+\def\F{\mathbb{F}}
+\def\N{\mathbb{N}}
+\def\P{\mathbb{P}}
+\def\R{\mathbb{R}}
+\def\Z{\mathbb{Z}}
